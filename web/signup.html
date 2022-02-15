@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Contact us - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Actor">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Article-List.css">
+    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav" style="background: #C4E538;width: 1195px;height: 83px;min-width: 4px;max-width: -2px;">
+        <div class="container"><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive" style="margin: 2px;">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html" style="color: var(--dark);font-family: Actor, sans-serif;font-size: 12;">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html" style="color: var(--dark);font-family: Actor, sans-serif;">About us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="signup.html" style="color: var(--dark);font-family: Actor, sans-serif;">Signup</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html" style="color: var(--dark);font-family: Actor, sans-serif;">Blog&nbsp;</a></li>
+                </ul>
+            </div><a class="nav-link" href="farmer.html" style="color: var(--gray-dark);font-size: 18px;padding: 55px 20px;/*width: 116;*/filter: brightness(94%);font-family: Actor, sans-serif;margin: 2px;height: 134px;">Post</a>
+        </div>
+    </nav>
+    <header class="masthead" style="background-image:url('contact-bg.jpg');">
+        <header class="overlay" style="background: url(&quot;assets/img/123.jpg&quot;) center;opacity: 0.99;"></header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-8 mx-auto">
+                    <div class="site-heading" style="background: rgba(174,229,56,0.15);">
+                        <h1 style="color: var(--dark);background: rgba(196,229,56,0.36);">Sign up</h1><span class="subheading" style="color: #C4E538;background: var(--dark);">Already registered? Sign in instead</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-lg-8 mx-auto">
+                <p>Want to post your ad? Sign up and join with us immediately</p>
+                <form id="contactForm" action="assets/php/signup.php" method="POST" name="sentMessage" novalidate="novalidate">
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls"><label>first name</label><input class="form-control" type="text" name="FirstName" required="" placeholder="First Name"><small class="form-text text-danger help-block"></small></div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls"><label>last name</label><input class="form-control" type="text" name="LastName" required="" placeholder="Last Name"><small class="form-text text-danger help-block"></small></div>
+                        <div class="form-group floating-label-form-group controls"><label>ID number</label><input class="form-control" type="text" name="nic" required="" placeholder="ID Number"><small class="form-text text-danger help-block"></small></div>
+                        <div class="form-group floating-label-form-group controls">
+                            <p style="font-size: 22px;">A valid e-mail address.All e-mails from the system will be sent to this address.</p><input class="form-control" type="email"  name="email" required="" placeholder="Email Address"><small class="form-text text-danger help-block"></small>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls"><label>password</label><input class="form-control" type="password" name="password" required="" placeholder="Password"><small class="form-text text-danger help-block"></small></div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls"><label>password</label><input class="form-control" type="password" name="passwordRepeat" required="" placeholder="Password (Repeat)"><small class="form-text text-danger help-block"></small></div>
+                    </div>
+                   
+                    <div id="success"></div>
+                    <div class="form-group">
+                        <div class="btn-group" role="group"><button class="btn btn-primary"  type="submit" name="submit" value="Check" style="background: #C4E538;color: var(--dark);">Signup</button></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Hosting</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Company Name</h3>
+                        <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                    </div>
+                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                </div>
+                <p class="copyright">Company Name © 2017</p>
+            </div>
+        </footer>
+    </div>
+    <footer style="height: 44px;padding: -10px;background: #C4E538;"></footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="assets/js/clean-blog.js"></script>
+</body>
+
+</html>
